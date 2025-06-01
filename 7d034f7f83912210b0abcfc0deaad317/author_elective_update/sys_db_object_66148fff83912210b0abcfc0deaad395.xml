@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>IT System</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_146833_tacmdb_u_cmdb_ci_it_system</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Configuration Item" name="cmdb_ci">cc519320dc5212104f34465061b06ac8</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:02:29</sys_created_on>
+        <sys_id>66148fff83912210b0abcfc0deaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tacmdb U CMDB CI It System</sys_name>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_update_name>sys_db_object_66148fff83912210b0abcfc0deaad395</sys_update_name>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:02:29</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</application>
+        <file_path/>
+        <instance_id>d3c21c79db7af91039639027c59619d7</instance_id>
+        <instance_name>dev228428</instance_name>
+        <name>sys_db_object_66148fff83912210b0abcfc0deaad395</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>IT System</label><live_feed_enabled>false</live_feed_enabled><name>x_146833_tacmdb_u_cmdb_ci_it_system</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Configuration Item" name="cmdb_ci">cc519320dc5212104f34465061b06ac8</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>avaranasi</sys_created_by><sys_created_on>2025-05-11 06:02:29</sys_created_on><sys_id>66148fff83912210b0abcfc0deaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tacmdb U CMDB CI It System</sys_name><sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package><sys_policy/><sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope><sys_update_name>sys_db_object_66148fff83912210b0abcfc0deaad395</sys_update_name><sys_updated_by>avaranasi</sys_updated_by><sys_updated_on>2025-05-11 06:02:29</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1240521842</payload_hash>
+        <record_name>IT System</record_name>
+        <reverted_from/>
+        <source>c6034f7f83912210b0abcfc0deaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:02:32</sys_created_on>
+        <sys_id>a714073383d12210b0abcfc0deaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196bdf01ed20000001</sys_recorded_at>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:02:32</sys_updated_on>
+        <type>Table</type>
+        <update_guid>eb140733dad12210b4e71d55e52774c7</update_guid>
+        <update_guid_history>eb140733dad12210b4e71d55e52774c7:-1240521842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 09:10:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>5bda41a49a2344a486d9b97e48988ce9</sys_id>
+        <sys_metadata>66148fff83912210b0abcfc0deaad395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tacmdb U CMDB CI It System</sys_name>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_scope_delete display_value="">00819f7d83984397870f08d1a99f4981</sys_scope_delete>
+        <sys_update_name>sys_db_object_66148fff83912210b0abcfc0deaad395</sys_update_name>
+        <sys_update_version display_value="sys_db_object_66148fff83912210b0abcfc0deaad395">a714073383d12210b0abcfc0deaad3c8</sys_update_version>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 09:10:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

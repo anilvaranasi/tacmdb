@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system_user)" source="apps/system_user">157f8b20dc1212104f34465061b06ab9</dependency>
+        <min_version/>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:13:39</sys_created_on>
+        <sys_id>12a643b783d12210b0abcfc0deaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:13:39</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

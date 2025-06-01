@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.incident_state != global.IncidentState.CLOSED &amp;&amp; (gs.hasRole("itil") || (GlidePluginManager.isActive("com.snc.itsm.roles.incident_management") &amp;&amp; gs.hasRole("sn_incident_write")))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint>Create a Generative AI summary of the task.</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Generate Summary</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[gs.addInfoMessage("Generative AI summarization has been initiated. Please review the summary in the worknotes field under the notes tab.");
+runGENAISummarizer();
+
+function runGENAISummarizer() {
+    //current.u_genai_summary = '';
+    //current.update();
+    action.setRedirectURL(current);
+(function() {
+	
+	try {
+		var inputs = {};
+		inputs['task'] = current; // GlideRecord of table: task 
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		sn_fd.FlowAPI.getRunner().subflow('x_146833_genaico_0.genai_vulerability_item_summarizer').inBackground().withInputs(inputs).run();
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		//var result = sn_fd.FlowAPI.getRunner().subflow('x_146833_genaico_0.genai_task_summarizer').inForeground().withInputs(inputs).run();
+		//var outputs = result.getOutputs();
+
+		// Current subflow has no outputs defined.		
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+	
+})();
+
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-12 12:50:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a12be99483a5e210b0abcfc0deaad349</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Generate Summary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_update_name>sys_ui_action_a12be99483a5e210b0abcfc0deaad349</sys_update_name>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-12 14:34:39</sys_updated_on>
+        <table>sn_vul_vulnerable_item</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a12be99483a5e210b0abcfc0deaad349</id>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-12 12:53:04</sys_created_on>
+        <sys_id>7aabe51883a5e210b0abcfc0deaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-12 12:53:04</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

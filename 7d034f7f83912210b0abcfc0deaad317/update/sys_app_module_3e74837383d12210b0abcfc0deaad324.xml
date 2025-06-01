@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="IT System">f274837383d12210b0abcfc0deaad307</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>IT Systems</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_146833_tacmdb_it_system</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_146833_tacmdb.it_system_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:04:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e74837383d12210b0abcfc0deaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Systems</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_update_name>sys_app_module_3e74837383d12210b0abcfc0deaad324</sys_update_name>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:04:08</sys_updated_on>
+        <timeline_page/>
+        <title>IT Systems</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8f64037383d12210b0abcfc0deaad368" extends="cmdb_ci_business_app" label="IT System" max_length="40" name="x_146833_tacmdb_it_system" type="collection"/>
+</database>

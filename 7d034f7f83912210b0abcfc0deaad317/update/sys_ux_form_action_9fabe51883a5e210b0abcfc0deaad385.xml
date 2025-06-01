@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Generate Summary</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-12 12:53:06</sys_created_on>
+        <sys_id>9fabe51883a5e210b0abcfc0deaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate Summary</sys_name>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_update_name>sys_ux_form_action_9fabe51883a5e210b0abcfc0deaad385</sys_update_name>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-12 12:53:06</sys_updated_on>
+        <table>sn_vul_vulnerable_item</table>
+        <ui_action display_value="Generate Summary">a12be99483a5e210b0abcfc0deaad349</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=9fabe51883a5e210b0abcfc0deaad385"/>
+</record_update>

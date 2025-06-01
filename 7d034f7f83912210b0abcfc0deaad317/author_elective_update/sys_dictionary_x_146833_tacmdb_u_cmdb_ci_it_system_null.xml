@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="" extends="cmdb_ci" table="x_146833_tacmdb_u_cmdb_ci_it_system">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Collection">collection</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_146833_tacmdb_u_cmdb_ci_it_system</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:02:29</sys_created_on>
+        <sys_id>7a148fff83912210b0abcfc0deaad39a</sys_id>
+        <sys_name>x_146833_tacmdb_u_cmdb_ci_it_system</sys_name>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_update_name>sys_dictionary_x_146833_tacmdb_u_cmdb_ci_it_system_null</sys_update_name>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:02:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</application>
+        <file_path/>
+        <instance_id>d3c21c79db7af91039639027c59619d7</instance_id>
+        <instance_name>dev228428</instance_name>
+        <name>sys_dictionary_x_146833_tacmdb_u_cmdb_ci_it_system_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="cmdb_ci" table="x_146833_tacmdb_u_cmdb_ci_it_system"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_146833_tacmdb_u_cmdb_ci_it_system</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>avaranasi</sys_created_by><sys_created_on>2025-05-11 06:02:29</sys_created_on><sys_id>7a148fff83912210b0abcfc0deaad39a</sys_id><sys_name>x_146833_tacmdb_u_cmdb_ci_it_system</sys_name><sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package><sys_policy/><sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope><sys_update_name>sys_dictionary_x_146833_tacmdb_u_cmdb_ci_it_system_null</sys_update_name><sys_updated_by>avaranasi</sys_updated_by><sys_updated_on>2025-05-11 06:02:29</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1594305744</payload_hash>
+        <record_name>IT System</record_name>
+        <reverted_from/>
+        <source>c6034f7f83912210b0abcfc0deaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:02:32</sys_created_on>
+        <sys_id>e314073383d12210b0abcfc0deaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196bdf01eaa0000001</sys_recorded_at>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:02:32</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>6714073338d1221053228f08184392c5</update_guid>
+        <update_guid_history>6714073338d1221053228f08184392c5:-1594305744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 09:10:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2efa12eff68e42c8a216af94bc60ca10</sys_id>
+        <sys_metadata>7a148fff83912210b0abcfc0deaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_146833_tacmdb_u_cmdb_ci_it_system</sys_name>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_parent display_value="">66148fff83912210b0abcfc0deaad395</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TACMDB">7d034f7f83912210b0abcfc0deaad317</sys_scope>
+        <sys_scope_delete display_value="">00819f7d83984397870f08d1a99f4981</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_146833_tacmdb_u_cmdb_ci_it_system_null</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_146833_tacmdb_u_cmdb_ci_it_system_null">e314073383d12210b0abcfc0deaad3c6</sys_update_version>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 09:10:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

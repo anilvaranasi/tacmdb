@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">32415320dc5212104f34465061b06a2d</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>avaranasi</sys_created_by>
+        <sys_created_on>2025-05-11 06:02:32</sys_created_on>
+        <sys_id>1314073383d12210b0abcfc0deaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="TACMDB" source="x_146833_tacmdb">7d034f7f83912210b0abcfc0deaad317</sys_package>
+        <sys_updated_by>avaranasi</sys_updated_by>
+        <sys_updated_on>2025-05-11 06:02:32</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
